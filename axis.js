@@ -1,6 +1,5 @@
-module.exports = function() {
+module.exports = function(){
   return function(style){
-    style.include(__dirname);
-    style.import('axis');
+    style.include(__dirname)
   }
 }
